@@ -1,0 +1,140 @@
+			<!DOCTYPE html>
+			<html class="no-js" lang="ru">
+
+			<head>
+
+				<meta charset="utf-8">
+
+				<title>Заголовок</title>
+				<meta name="description" content="testing">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width col-sm col-xs">
+				<meta property="og:image" content="path/to/image.jpg">
+
+				<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+				<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+				<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+				<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+				<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+				<!-- Bootstrap v3.3.4 Grid Styles -->
+				
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+				<link rel="stylesheet" href="css/fonts.min.css">
+				<link rel="stylesheet" href="css/header.min.css">
+				<link rel="stylesheet" href="css/main.min.css">
+			</head>
+
+			<body>
+
+				<!-- Здесь пишем код -->
+				<div id="app">
+					<div class="CHAT_APP" data-reactid=".0">
+						<header class="chat_header" data-reactid=".0.0.0">
+							<div class="container-fluid" data-reactid=".0.0">
+								<div class="row" data-reactid=".0.0.0.0">
+									<div class="col-md-3 col-lg-3" data-reactid=".0.0.0.0.0">
+										<div class="logo" data-reactid=".0.0.0.0.0.0">
+											<a href="http://localhost:3000/learner/chat" data-reactid=".0.0.0.0.0.0.0">
+												<img src="http://localhost:3000/imgFiles/logo_chat.png" data-reactid=".0.0.0.0.0.0.0.0">
+											</a>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-6 main_part_header" data-reactid=".0.0.0.0.1">
+										<div class="changeNameUser" data-reactid=".0.0.0.0.1.0">
+											<input type="text" id="name" placeholder="Name.." data-reactid=".0.0.0.0.1.0.0">
+											<br data-reactid=".0.0.0.0.1.0.1">
+											<button class="save_name" data-reactid=".0.0.0.0.1.0.2">Save</button>
+										</div>
+										<div class="changeAva" data-reactid=".0.0.0.0.1.1">
+											<label data-reactid=".0.0.0.0.1.1.0" class="active">
+												<input name="ava" id="ava" type="checkbox" data-reactid=".0.0.0.0.1.1.0.0">
+												<span data-reactid=".0.0.0.0.1.1.0.1">У меня есть ава</span>
+											</label><br data-reactid=".0.0.0.0.1.1.1">
+											<div class="out noactive" data-reactid=".0.0.0.0.1.1.2">
+												<div class="ava_wrp_img" data-reactid=".0.0.0.0.1.1.2.0">
+													<img src="http://localhost:3000/imgFiles/no-avatar.png" data-reactid=".0.0.0.0.1.1.2.0.0">
+												</div>
+												<input type="text" id="url" placeholder="Url.." data-reactid=".0.0.0.0.1.1.2.1">
+											</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-lg-3 menu-left" data-reactid=".0.0.0.0.2">
+											<a class="logout_button" href="http://localhost:3000/learner" data-reactid=".0.0.0.0.2.0">
+												<i class="fas fa-sign-out-alt" data-reactid=".0.0.0.0.2.0.0"></i>
+												<span data-reactid=".0.0.0.0.2.0.1">Exit</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</header>
+							<div class="main_cnt" data-reactid=".0.1">
+								<div class="container" data-reactid=".0.1.0">
+									<div class="massages" data-reactid=".0.1.0.0">
+
+										<div class="fixed_top_panel">
+											<p class="text-center">Приветствуем участников соревнований!</p>
+										</div>
+										<div class="wrp_massages">
+											
+										<div class="my_massage">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae mollitia quam eligendi, ullam laboriosam! Aut.</p>
+											<i class="fas fa-caret-right"></i>
+										</div>
+
+										<div class="other_massage">
+											<div class="wrp">	
+												<div class="info">
+												<div class="wrp_img">
+													<img src="http://localhost:3000/imgFiles/avatars/admin.jpg" alt="img_other_massage">
+												</div>
+												<div class="name_usr">
+													<span>Daniil</span>
+												</div>
+											</div>
+											<div class="cnt_massage">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae mollitia quam eligendi, ullam laboriosam! Aut.</p>
+											</div>
+											<i class="fas fa-caret-left"></i>
+											</div>
+										</div>
+											
+										</div>
+									</div>
+									<div class="bottom_panel" data-reactid=".0.1.0.1">
+										<textarea rows="1" cols="1" placeholder="Pishi zdes'!" id="addMassage" data-reactid=".0.1.0.1.0"></textarea>
+										<div class="panel_icon" data-reactid=".0.1.0.1.1">
+											<div class="smile_icon icon" data-reactid=".0.1.0.1.1.1">
+												<i class="far fa-smile" onclick="return Docs.upload(this, event);"></i>
+												<!-- <input type="file"> -->
+											</div>
+											<div class="clip_icon icon" data-reactid=".0.1.0.1.1.0">
+												<i class="fas fa-paperclip"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<footer class="main_footer">
+								<p class="text-center">Daniil Shenyagin&copy;2018 - @projectsSchool#3 - Murom</p>
+							</footer>
+						</div>
+					</div>
+				
+				<div class="hidden"></div>
+
+				<!--[if lt IE 9]>
+				<script src="libs/html5shiv/es5-shim.min.js"></script>
+				<script src="libs/html5shiv/html5shiv.min.js"></script>
+				<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+				<script src="libs/respond/respond.min.js"></script>
+				<![endif]-->
+
+				<!-- Load Scripts Start -->
+				<script src="js/libs.js"></script>
+				<script src="js/common.js"></script>
+				<!-- Load Scripts End -->
+
+			</body>
+			</html>
+
